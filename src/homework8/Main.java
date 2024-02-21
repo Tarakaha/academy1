@@ -12,9 +12,9 @@ public class Main {
         Animal giraffe = new Herbivore("Жираф", 800, 30, FoodType.GRASS);
         Animal pig = new Omnivore("Свинья", 150, 3, FoodType.MIXED);
         Animal eagle = new BirdOfPrey("Орёл", 4, 0.25, FoodType.MEAT);
-        Animal colibri = new HerbivorousBird("Колибри", 1, 0.05, FoodType.GRASS);
+        Animal colibri = new HerbivorousBird("Колибри", 0.04, 0.05, FoodType.GRASS);
         Animal woodpecker = new HerbivorousBird("Дятел", 1, 0.05, FoodType.INSECTS);
-        Animal lizard = new Lizard("Хамелион", 0.5, 0.02, FoodType.INSECTS);
+        Animal lizard = new Lizard("Хамелион", 0.4, 0.02, FoodType.INSECTS);
         Animal snake = new Snake("Питон", 3, 5, FoodType.MEAT);
         Animal turtle = new Turtle("Черепаха", 10, 0.2, FoodType.GRASS);
 
